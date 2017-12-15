@@ -1,0 +1,138 @@
+.frame1 {
+    display: block;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('frame1.jpg');
+    background-size: cover;
+}
+
+.frame2 {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('frame2.jpg');
+    background-size: cover;
+}
+
+.frame1:hover + .frame2 {
+    display: block;
+}
+
+
+.frame3 {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('frame3.jpg');
+    background-size: cover;
+}
+
+.frame2:hover + .frame3 {
+    display: block;
+}
+
+.frame4 {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('frame4.jpg');
+    background-size: cover;
+}
+
+.frame3:hover + .frame4 {
+    display: block;
+}
+
+.frame5 {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('frame5.jpg');
+    background-size: cover;
+}
+
+.frame4:hover + .frame5 {
+    display: block;
+}
+
+.frame6 {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    background-image: url('frame6.jpg');
+    background-size: cover;
+}
+
+.frame5:hover + .frame6 {
+    display: block;
+}
+
+.frame6:hover {
+    display: block;
+}
+
+.box1 {
+    display: block;
+    position: relative;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    left: 0;
+    top: 40px;
+}
+
+.box2 {
+    display: block;
+    position: relative;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    left: 10px;
+    top: 40px;
+}
+
+.box3 {
+    display: block;
+    position: relative;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    left: 20px;
+    top: 40px;
+}
+
+.box4 {
+    display: block;
+    position: relative;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    left: 30px;
+    top: 40px;
+}
+
+.box5 {
+    display: block;
+    position: relative;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    left: 40px;
+    top: 40px;
+}
+
+.box6 {
+    display: block;
+    position: relative;
+    background-color: red;
+    width: 20px;
+    height: 20px;
+    left: 50px;
+    top: 40px;
+}
